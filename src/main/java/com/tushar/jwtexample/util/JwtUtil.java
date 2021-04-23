@@ -13,6 +13,7 @@ import java.util.function.Function;
 
 @Service
 public class JwtUtil {
+
     private String secret = "secret";
 
     public String extractUsername(String token) {
